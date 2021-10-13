@@ -1,0 +1,402 @@
+div.mets{
+    float: right;
+    margin-top: -30px;
+}
+div.mets .latest{
+    background: darkgreen;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+div.section-two div.content ul li a.nav-link{
+    font-size: 20px;
+}
+div.section-two div.stuff{
+    background: whitesmoke;
+}
+div.section-two div.content{
+    padding-bottom: 20px;
+}
+div.ads1,div.ads2,div.ads3{
+    overflow: hidden;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+div.main1 div.section-two div.col-lg-8 div.ads1 a img.ads{
+    width: 100%;
+    height:100%;
+}
+div.main1 div.section-two div.col-lg-8 div.ads2 img{
+    width: 100%;
+    height: 100%;
+}
+div.main1 div.section-two div.col-lg-8 div.ads3 img{
+    width: 100%;
+    height:100% ;
+}
+div.section-two div.content ul{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+    background:linear-gradient(green,limegreen);
+    border-radius: 30px;
+}
+div.section-two div.content ul li.nav-item a.active{
+    background-color: darkgreen;
+    color: white;
+}
+div.section-two div.content ul li.nav-item a{
+    color: white;
+}
+div.main1 div.section-two img{
+    width: 100%;
+}
+div.main1 div.section-one{
+    margin-top: 128px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+div.main1 div.section-one img{
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+    max-height: 400px;
+
+}
+div.main1 div.section-one div.section-text{
+    position: absolute;
+    top: 45%;
+    left: 2%;
+}
+div.main1 div.section-one div.section-text p{
+    color: white;
+}
+div.main1 div.section-one div.section-text p.first{
+    text-transform: uppercase;
+    color:white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #08e1ae;
+    background-image: linear-gradient(green,limegreen);
+}
+div.main1 div.section-one div.section-text p.second{
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px black;
+}
+div.main1 div.section-one div.section-text p.third {
+    font-size:24px;
+    text-shadow: 3px 3px 3px black;
+}
+div.main1 div.section-one img{
+    transform: scale(1);
+	transition: all 10s;
+	
+	height: auto;
+}
+div.main1 div.section-one img:hover{
+    transform:scale(2);
+}
+/* end of section one */
+
+/*start of section two */
+
+div.section-two {
+
+    padding-top: 30px;
+    width: 100%;
+}
+div.section-two p.header{
+    text-align: center;
+    font-size: 36px;
+    font-weight:900;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+div.section-two{
+    background-color:#ffffff;
+}
+div.section-two div.content div.col-4{
+    overflow: hidden;
+
+}
+div.section-two div.content div.col-4 img{
+    height: 100px;
+    width: 100%;
+
+}
+div.section-two div.container-fluid div.row div.col-lg-4 div.container-fluid div.row div.col-6 img{
+    margin-top: 3px;
+    height: 120px;
+}
+
+div.section-two div.content div.stuff a{
+    color: darkslategrey;
+}
+a.comnum{
+    color: white;
+}
+div.section-two div.container-fluid p.sub-head{
+    font-size: 30px;
+    font-weight: 900;
+    width: 100%;
+    color: white;
+    background-color: #3ee577;
+    background-image: linear-gradient(green,limegreen);
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+padding-left: 40px;
+
+
+}
+div.section-two div.container-fluid p.sub-head a{
+    color: white;
+    text-decoration: none;
+}
+
+div.section-two div.container-fluid div.song-big{
+    position: relative;
+    overflow: hidden;
+}
+div.section-two div.container-fluid div.song-big img{
+    height: 300px;
+}
+div.section-two div.container-fluid div.song-big div.meta{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+div.section-two div.container-fluid div.row div.col-lg-8 div.row{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+div.section-two div.container-fluid div.row div.col-lg-8 div.row div.col-lg-6{
+    padding-top: 20px;
+}
+div.section-two div.container-fluid div.song-big p.latest{
+    color: white;
+    background-color: #27a770;
+
+position: absolute;
+top: 5%;
+left: 0;
+ font-size: 20px;
+ text-transform: uppercase;
+ font-weight: 900;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+div.section-two div.container-fluid div.song-big p.comment{
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    background-color: #27a770;
+    padding-left: 10px;
+    padding-right: 10px;
+font-size: 20px;
+}
+div.section-two div.container-fluid div.song p.latest{
+    color: white;
+    background-color: #27a770;
+
+position: absolute;
+top: 5%;
+left: 0;
+ font-size: 14px;
+ text-transform: uppercase;
+ font-weight: 900;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+div.section-two div.container-fluid div.song p.comment{
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    background-color: #27a770;
+    padding-left: 10px;
+    padding-right: 10px;
+font-size: 14px;
+}
+
+div.section-two div.container-fluid div.song-big p.first{
+    position: static;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left:5px;
+    bottom:18px;
+}
+div.section-two div.container-fluid div.song-big p.second{
+    position: static;
+    font-size: 24px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left: 5px;
+    bottom: 12px;
+}
+
+div.section-two div.container-fluid div.song{
+    position: relative;
+    overflow: hidden;
+}
+div.section-two div.container-fluid div.song img{
+    height: 200px;
+}
+div.section-two div.container-fluid div.song p.first{
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left:2px;
+    bottom:10%;
+}
+div.section-two div.container-fluid p.second{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left: 2px;
+    bottom: -3%;
+}
+div.section-two div.container-fluid img{
+    transform: scale(1);
+    height: auto;
+    transition: all 10s;
+}
+div.section-two div.container-fluid img:hover{
+    transform: scale(2);
+}
+div.section-two div.container-fluid div.row div.col-lg-4{
+
+    padding-top: 100px;
+}
+div.section-two div.container-fluid p.sub-head2{
+    font-size: 24px;
+    font-weight: 900;
+    width: 50%;
+    color: white;
+    background-color: #03e5b7;
+    background-image: linear-gradient(limegreen,green);
+    text-align: center;
+    
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+}
+div.section-two div.container-fluid p.sub-head2 a{
+    color:white;
+}
+div.section-two div.container-fluid div.row div.col-lg-4  div.col-6{
+    overflow: hidden;
+}
+div.section-two div.container-fluid div.row div.col-lg-4 div.container-fluid{
+    background:linear-gradient(limegreen,green);
+}
+div.section-two div.container-fluid div.row div.col-lg-4 p.name{
+
+    color: darkgreen;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+div.section-two div.container-fluid div.row div.col-lg-4 p.detail{
+    color:white;
+}
+div.section-two div.container-fluid div.row div.col-lg-4 div.container-fluid div.row p.info{
+    color: white;
+}
+div.section-two div.feature {
+    padding-top: 30px;
+}
+
+div.section-two div.feature div.song3{
+
+    overflow: hidden;
+    position: relative;
+}
+div.section-two div.container-fluid p.sub-head3{
+    font-size: 30px;
+    font-weight: 900;
+    width: 100%;
+    color: white;
+    background-color: #3ee577;
+    background-image: linear-gradient(green,limegreen);
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+text-align: center;
+
+
+}
+div.section-two div.feature div.song3 p.first{
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left:2px;
+    bottom:2%;
+}
+div.section-two div.feature p.second{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left: 2px;
+    bottom:-10%;
+}
+div.section-two div.feature div.song3 p.latest{
+    color: white;
+    background-color: #27a770;
+
+position: absolute;
+top: 5%;
+left: 0;
+ font-size: 16px;
+ text-transform: uppercase;
+ font-weight: 900;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+div.section-two div.feature div.song3 p.comment{
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    background-color: #27a770;
+    padding-left: 10px;
+    padding-right: 10px;
+font-size: 16px;
+}
+div.section-two div.feature div.song3 img{
+    height: 200px;
+}
+
+@media screen and (max-width:768px){
+    div.main1 div.section-one img{
+        width: 100%;
+        height:300px;
+        min-height: initial;
+        max-height: 300px;
+    }
+    div.section-two div.container-fluid div.song-big img{
+        height: 200px;
+    }
+    div.section-two div.container-fluid div.song img{
+        height: 150px;
+    }
+    div.section-two div.feature div.song3 img{
+        height: 150px;
+    }
+}

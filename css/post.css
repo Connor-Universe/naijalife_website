@@ -1,0 +1,257 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+/*post cards */
+
+  div.section-two div.container-fluid{
+	  width: 95%;
+	  margin: auto;
+  }
+  div.section-two div.side img{
+	  width: 100%;
+	  height: 80px;
+  }
+div.post{
+	background-color: white ;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+  
+ 
+
+  div.section-two div.container-fluid p.first{
+	text-transform: uppercase;
+
+	font-size: 1.2em;
+	position: relative;
+	background: linear-gradient(green,limegreen);
+
+    font-weight: 900;
+    width: 50%;
+    color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+padding-left: 40px;
+  }
+  div.section-two div.container-fluid p.first:after{
+
+	background-color: darkgreen;
+	 content: "";
+	 height: 3px;
+	 margin-top: 15px;
+	 width: 56px;
+	 position: absolute;
+	 bottom: -15px;
+	 left:0;
+	 
+  }
+  div.section-two div.container-fluid form{
+	  display: inline-block;
+	  padding-top: 30px;
+  }
+  div.section-two div.container-fluid form button.site{
+
+	color: white;
+	background-color: darkgreen;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.42857;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	padding: 9px 12px;
+	
+	
+  }
+  div.section-two div.container-fluid form input span.input-group-btn{
+	  display: table-cell;
+  }
+  div.section-two div.container-fluid p.second{
+
+	text-transform: uppercase;
+	color: #58575D;
+	font-size: 1.4em;
+	font-weight: 500;
+	position: relative;
+	padding-top: 30px;
+  }
+  div.section-two div.container-fluid p.second:after{
+
+	background-color: darkgreen;
+	 content: "";
+	 height: 3px;
+	 margin-top: 15px;
+	 width: 56px;
+	 position: absolute;
+	 bottom: -15px;
+	 left:0;
+	 
+  }
+  div.section-two div.container-fluid div.container-fluid{
+	  padding-top: 30px;
+  }
+  div.section-two div.container-fluid div.container-fluid div.row{
+
+	padding-top: 10px;
+  }
+  div.section-two div.container-fluid div.container-fluid div.row p.name{
+	  text-transform: uppercase;
+	  font-size: 14px;
+	  margin-top: 5px;
+	  color: #58575D;
+	  font-weight: 500;
+  }
+  div.section-two div.container-fluid div.container-fluid div.row p.info{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #767676;
+	font-weight: 400;
+}
+
+div.section-two {
+    background-color:whitesmoke;
+    padding-top: 50px;
+}
+div.section-two div.post header p{
+    font-size: 24px;
+    padding-bottom: 20px;
+	text-transform: capitalize;
+
+    font-weight: 900;
+    width: 100%;
+    color: white;
+    background-color: #3ee577;
+    background-image: linear-gradient(green,limegreen);
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+padding-left: 40px;
+}
+div.section-two div.post section.first p{
+
+    text-transform: capitalize;
+
+	font-size: 16px;
+    font-weight: 900;
+
+    color: white;
+    background-color:rgb(66, 206, 66);
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+padding-left: 40px;
+}
+.addthis_inline_share_toolbox{
+	margin-left: 30%;
+}
+div.section-two div.post section.first p i{
+    color: white;
+}
+div.section-two div.post section.second p span.post-type{
+	color: white;
+	border-style: solid;
+	border-color: darkgreen;
+	background-color:darkgreen;
+	padding-right: 2px;
+	border-radius: 16px;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	font-size: 14px;
+}
+div.section-two div.post img.zoom-slow{
+	transform: scale(1);
+	transition: all 10s;
+	width: 90%;
+	margin-left:5%;
+	height: 400px;
+}
+div.section-two div.post img.zoom-slow:hover{
+	transform: scale(2);
+	
+}
+div.section-two div.post div.img{
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+div.section-two div.post section.detail{
+    color: darkslategrey;
+	font-size: 16px;
+	background-color: white;
+	padding-bottom: 50px;
+	width: 90%;
+	margin: auto;
+}
+div.section-two div.post section.detail p.code{
+
+    background: linear-gradient(to right,darkgreen,rgb(95, 8, 95));
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px lightgrey;
+    
+}
+/* end of section two */
+
+
+/* start of section three */
+
+  div.section-three{
+	
+    padding-top: 70px;
+
+  }
+h3{
+	padding-top: 20px;
+	color: darkslategrey;
+}
+  div.section-three div.text{
+	  width: 100%;
+      margin: auto;
+      background-color:#E8E9E9;
+      height: 60px;
+  }
+  div.section-three div.text p a{
+	  color: darkgreen;
+	  text-decoration: none;
+	  text-transform: capitalize;
+
+  }
+  div.section-three div.text p{
+
+	color: #676767;
+	font-weight:500;
+	padding-top: 20px;
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
+  audio{
+	  width: 100%;
+	  margin-top: 30px;
+	  color: limegreen;
+  }
+  @media screen and (max-width:768px){
+	div.section-two div.post img.zoom-slow{
+		transform: scale(1);
+		transition: all 10s;
+		width: 90%;
+		margin-left:5%;
+		height: 300px;
+	}
+	div.section-two div.side img{
+		width: 100%;
+		height: 180px;
+	}
+  }

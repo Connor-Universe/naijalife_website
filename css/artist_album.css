@@ -1,0 +1,250 @@
+div.main1{
+
+    background-color: white;
+    
+}
+div.main{
+    background-color: black;
+}
+div.section-one{
+    padding-top: 180px;
+}
+div.section-one p.sub-head{
+    font-size: 30px;
+    font-weight: 900;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+
+    background-image: linear-gradient(green,limegreen);
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+padding-left: 40px;
+
+}
+div.section p.sub-head a{
+    color: white;
+}
+div.section-one div.artist{
+  margin: auto;
+  width: 50%;
+}
+div.section-one div.artist div.song p.latest{
+    color: white;
+    background-color: #27a770;
+
+position: absolute;
+top: 15%;
+left: 0;
+ font-size: 20px;
+ text-transform: uppercase;
+ font-weight: 900;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+div.section-one div.artist div.song{
+    position: relative;
+    overflow: hidden;
+}
+div.section-one div.artist div.song p.first{
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left:2px;
+    bottom:4%;
+    text-transform: capitalize;
+}
+div.section-one div.artist p.second{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left: 2px;
+    bottom:-5px;
+    text-transform: capitalize;
+}
+div.section-one div.artist img{
+    transform: scale(1);
+    height: 350px;
+    transition: all 10s;
+    width: 100%;
+    padding-top: 20px;
+}
+div.section-one div.artist img:hover{
+    transform: scale(2);
+}
+
+/* end of section one */
+
+/*start of section two */
+
+div.section-two {
+
+    padding-top: 30px;
+    width: 100%;
+}
+div.section-two p.header{
+    text-align: center;
+    font-size: 36px;
+    font-weight:900;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+div.section-two{
+    background-color:#ffffff;
+}
+div.section-two div.container-fluid p.sub-head{
+    font-size: 30px;
+    font-weight: 900;
+    width: 100%;
+    color: white;
+
+    background-image: linear-gradient(green,limegreen);
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+padding-left: 40px;
+
+
+}
+ a.latest{
+    color: white;
+    text-decoration: none;
+}
+div.section-two div.container-fluid div.song-big{
+    position: relative;
+    overflow: hidden;
+}
+
+div.section-two div.container-fluid div.song-big div.meta{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+div.section-two div.container-fluid p.sub-head2{
+    font-size: 24px;
+    font-weight: 900;
+    width: 50%;
+    color: white;
+    background-color: #03e5b7;
+    background-image: linear-gradient(315deg, #03e5b7 0%, #037ade 74%);
+    text-align: center;
+    
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+}
+div.section-two div.container-fluid p.sub-head2 a{
+    color: white;
+}
+div.section-two div.container-fluid div.song p.latest{
+    color: white;
+    background-color: #27a770;
+
+position: absolute;
+top: 15%;
+left: 0;
+ font-size: 20px;
+ text-transform: uppercase;
+ font-weight: 900;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+div.section-two div.container-fluid div.song p.comment{
+    color: white;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    background-color: #27a770;
+    padding-left: 10px;
+    padding-right: 10px;
+font-size: 20px;
+}
+
+
+div.section-two div.container-fluid div.song{
+    position: relative;
+    overflow: hidden;
+}
+div.section-two div.container-fluid div.song p.first{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left:2px;
+    bottom:4%;
+    text-transform: capitalize;
+}
+div.section-two div.container-fluid p.second{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    left: 2px;
+    bottom: -6%;
+    text-transform: capitalize;
+}
+div.section-two div.container-fluid img{
+    transform: scale(1);
+    height: 220px;
+    transition: all 10s;
+    width: 100%;
+    padding-top: 20px;
+}
+div.section-two div.container-fluid img:hover{
+    transform: scale(2);
+}
+
+div.section-two div.container-fluid div.row div.col-lg-3 p.name{
+
+    color: green;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+div.section-two div.container-fluid div.row div.col-lg-3 p.detail{
+    color: lightgrey;
+}
+
+@media screen and (max-width:768px){
+    div.section-two div.container-fluid div.song p.latest{
+        color: white;
+        background-color: #27a770;
+    
+    position: absolute;
+    top: 15%;
+    left: 0;
+     font-size: 12px;
+     text-transform: uppercase;
+     font-weight: 900;
+     padding-left: 10px;
+     padding-right: 10px;
+    }
+    div.section-two div.container-fluid div.song p.comment{
+        color: white;
+        position: absolute;
+        top: 15%;
+        right: 0;
+        background-color: #27a770;
+        padding-left: 10px;
+        padding-right: 10px;
+    font-size: 12px;
+    }
+    div.section-one div.artist img{
+        transform: scale(1);
+        height: 240px;
+        transition: all 10s;
+        width: 100%;
+        padding-top: 20px;
+    }
+    div.section-two div.container-fluid img{
+        transform: scale(1);
+        height: 200px;
+        transition: all 10s;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
